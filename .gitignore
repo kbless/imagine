@@ -8,3 +8,4 @@ bin/
 /.php_cs
 /.phpunit.result.cache
 /tests/tmp
+.idea/
