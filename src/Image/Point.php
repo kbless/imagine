@@ -45,9 +45,9 @@ final class Point implements PointInterface
         $x = (int) round((float) $x);
         $y = (int) round((float) $y);
 
-        if ($x < 0 || $y < 0) {
-            throw new InvalidArgumentException(sprintf('A coordinate cannot be positioned outside of a bounding box (x: %s, y: %s given)', $x, $y));
-        }
+        // if ($x < 0 || $y < 0) {
+        //     throw new InvalidArgumentException(sprintf('A coordinate cannot be positioned outside of a bounding box (x: %s, y: %s given)', $x, $y));
+        // }
 
         $this->x = $x;
         $this->y = $y;
